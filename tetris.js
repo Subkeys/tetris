@@ -376,7 +376,7 @@ function init(gt) {
     gametype = gt;
   }
 
-  lineLimit = 1000;
+  lineLimit = 999;
 
   //Reset
   column = 0;
