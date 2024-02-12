@@ -271,7 +271,7 @@ var binds = {
   hardDrop: 32,
   holdPiece: 67,
   rotRight: 88,
-  rotLeft: 90,
+  rotLeft: 16,
   rot180: 16,
   retry: 82,
 };
