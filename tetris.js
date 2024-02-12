@@ -283,6 +283,7 @@ var flags = {
   holdPiece: 16,
   rotRight: 32,
   rotLeft: 64,
+  rotLeft2: 38,
   rot180: 128,
 };
 
@@ -746,6 +747,8 @@ addEventListener(
       } else if (e.keyCode === binds.rotRight) {
         keysDown |= flags.rotRight;
       } else if (e.keyCode === binds.rotLeft) {
+        keysDown |= flags.rotLeft;
+      } else if (e.keyCode === binds.rotLeft2) {
         keysDown |= flags.rotLeft;
       } else if (e.keyCode === binds.rot180) {
         keysDown |= flags.rot180;
